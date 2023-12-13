@@ -26,7 +26,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={cn('w-full fixed top-0  z-40 py-4', showBackground ? 'bg-white' : '')}>
+        <div className={cn('w-full fixed top-0  z-40 py-4', showBackground ? 'bg-white drop-shadow-md' : '')}>
             <div className="flex items-center justify-center ">
                 <div className="w-full max-w-[90%] md:max-w-[80%] flex justify-between items-center">
                     <Logo />
