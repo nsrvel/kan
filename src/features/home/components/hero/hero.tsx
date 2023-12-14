@@ -15,8 +15,6 @@ const HeroSection = () => {
                 style={{ objectFit: 'cover', width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent via-10% to-transparent" />\
-            <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-transparent" />
             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent via-10% to-transparent" />
             <div className="flex absolute inset-0 w-full h-full items-center justify-center">
                 <div className="mx-4 max-w-[1120px] flex flex-col items-center justify-center gap-y-6  bg-white bg-opacity-50 backdrop-blur-sm rounded-xl py-6 px-8">
