@@ -11,7 +11,7 @@ const ValueCard: React.FC<ValueCardProps> = ({ title, iconPath, children }) => {
     const { firstLetter, restOfSentence } = splitSentence(title);
 
     return (
-        <div className="w-[491px] min-h-[275px] border-2 border-primary rounded-xl p-8">
+        <div className="w-[491px] max-w-[90%] min-h-[275px] border-2 border-primary rounded-xl p-8">
             <div className="flex flex-row items-center justify-center gap-x-2 pb-4">
                 <Image alt={title} src={iconPath} height={50} width={50} />
                 <h2 className="text-2xl font-semibold text-secondary">
