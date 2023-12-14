@@ -11,7 +11,6 @@ const HeroSection = () => {
                 sizes="100%"
                 priority={false}
                 className=""
-                quality={80}
                 loading="lazy"
                 style={{ objectFit: 'cover', width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}
             />
