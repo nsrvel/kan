@@ -11,9 +11,10 @@ const HeroSection = () => {
                 width={2000}
                 className="object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white/30" />
+            <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent via-10% to-transparent" />
             <div className="absolute inset-0 w-full h-full flex items-center justify-center">
-                <div className="hidden md:flex my-auto mx-[399px] max-h-[90%] max-w-[90%] flex-col items-center justify-center gap-y-6  bg-white bg-opacity-50 backdrop-blur-sm rounded-xl py-6 px-8 ">
+                <div className="my-auto mx-[399px] max-h-[90%] max-w-[90%] flex flex-col items-center justify-center gap-y-6  bg-white bg-opacity-50 backdrop-blur-sm rounded-xl py-6 px-8 ">
                     <h2 className="text-[40px] text-primary font-semibold text-center">PT KREASI APLIKASI NASIONAL</h2>
                     <h1 className="text-[50px] text-primary font-bold text-center">{`"MENGOPTIMALKAN BISNIS MELALUI SOLUSI IT TERDEPAN DAN BERKELANJUTAN"`}</h1>
                     <button className="group bg-primary rounded-xl">
