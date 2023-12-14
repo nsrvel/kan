@@ -20,7 +20,7 @@ const ProductServiceCard: React.FC<ProductServiceCardProps> = ({ type, title, lo
     };
 
     return (
-        <div className="flex w-[464px] min-h-[476px] border-2 bg-white border-secondary drop-shadow-lg rounded-xl p-8">
+        <div className="flex max-w-[90%] w-[464px] min-h-[476px] border-2 bg-white border-secondary drop-shadow-lg rounded-xl p-8">
             <div className=" flex flex-col items-center justify-between gap-y-8">
                 <Header />
                 <div className="text-center text-xl leading-8">{children}</div>
