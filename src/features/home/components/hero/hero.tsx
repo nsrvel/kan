@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div className="relative min-h-[70vh] md:min-h-[80vh] lg:min-h-[90vh] xl:min-h-screen w-full bg-secondary">
+        <div className="relative min-h-[70vh] md:min-h-[80vh] lg:min-h-[90vh] xl:min-h-screen w-full">
             <Image
                 src="/images/hero-bg.jpg"
                 alt="hero"
