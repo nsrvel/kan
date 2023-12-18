@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 type PaperPlaneIconProps = {
     className?: string;
@@ -18,15 +19,17 @@ const PaperPlaneIcon: React.FC<PaperPlaneIconProps> = ({ className = '' }) => {
 
 const ContactButton = () => {
     return (
-        <button className="group bg-primary hover:bg-white rounded-3xl border-2 border-white hover:border-primary transition duration-300">
-            <div className="flex flex-row items-center justify-center gap-x-2 px-5 py-3">
-                <p className="text-md text-white group-hover:text-primary font-semibold transition-colors duration-300">
-                    Hubungi Kami
-                </p>
-                {/* <Image alt="contact-logo" src="/icons/paper-plane.svg" height={22} width={20} /> */}
-                <PaperPlaneIcon className="group-hover:fill-primary transition-colors duration-300" />
-            </div>
-        </button>
+        <motion.div whileTap={{ scale: 0.9 }}>
+            <button className="group bg-primary hover:bg-white rounded-3xl border-2 border-white hover:border-primary transition duration-300">
+                <div className="flex flex-row items-center justify-center gap-x-2 px-5 py-3">
+                    <p className="text-md text-white group-hover:text-primary font-semibold transition-colors duration-300">
+                        Hubungi Kami
+                    </p>
+                    {/* <Image alt="contact-logo" src="/icons/paper-plane.svg" height={22} width={20} /> */}
+                    <PaperPlaneIcon className="group-hover:fill-primary transition-colors duration-300" />
+                </div>
+            </button>
+        </motion.div>
     );
 };
 

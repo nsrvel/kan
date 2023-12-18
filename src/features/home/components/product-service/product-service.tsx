@@ -14,7 +14,7 @@ const ProductService = () => {
                             key={item.title}
                             type={item.type}
                             title={item.title}
-                            logoPath={item.logoPath}
+                            imgPath={item.imgPath}
                             url={item.url}
                         >
                             {item.description}
