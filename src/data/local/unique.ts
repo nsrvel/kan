@@ -11,12 +11,12 @@ const unique = [
     },
     {
         title: 'PELAYANAN PRIMA',
-        iconPath: '/icons/unique-icon2.svg',
+        iconPath: '/icons/unique-icon3.svg',
         description: 'Menonjolkan pelayanan prima, responsif dan memastikan kepuasan pelanggan adalah prioritas utama',
     },
     {
         title: 'PROBLEM SOLVING',
-        iconPath: '/icons/unique-icon2.svg',
+        iconPath: '/icons/unique-icon4.svg',
         description: 'Unggul dalam merumuskan dan menerapkan solusi yang efektif dan inovatif',
     },
 ];
